@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameBox</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="biblioteca-titulo">Biblioteca de Jogos - BETA</h1>
+        <form id="searchForm" action="/" method="get">
+            <input type="text" id="searchInput" name="search" placeholder="Search for games...">
+            <button type="submit">Search</button>
+            <button type="button" id="BotaoApagar">Limpar</button>
+        </form>
+        <div id="gamesList" class="games">
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+</body>
+</html>
